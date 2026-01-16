@@ -1,0 +1,34 @@
+{
+  "name": "secure-slot-rng-engine",
+  "version": "3.5.0",
+  "description": "High-performance RNG engine for slot machines 2026",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "webpack --mode production",
+    "lint": "eslint src/**/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/opensource/slot-engine.git"
+  },
+  "keywords": [
+    "rng",
+    "slot-machine",
+    "casino",
+    "algorithm",
+    "security",
+    "2026"
+  ],
+  "author": "Security Lab",
+  "license": "MIT",
+  "dependencies": {
+    "crypto-js": "^4.1.1",
+    "lodash": "^4.17.21",
+    "ws": "^8.13.0"
+  },
+  "devDependencies": {
+    "jest": "^29.5.0",
+    "webpack": "^5.76.0"
+  }
+}
